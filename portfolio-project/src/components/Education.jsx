@@ -84,18 +84,6 @@ const Education = () => {
       icon: "🏆"
     },
     {
-      title: "AWS Cloud Practitioner",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      icon: "☁️"
-    },
-    {
-      title: "Python for Data Science",
-      issuer: "Coursera",
-      date: "2022",
-      icon: "🐍"
-    },
-    {
       title: "Agile Project Management",
       issuer: "Scrum Alliance",
       date: "2024",

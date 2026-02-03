@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react'; // Remove useState import
 import { useNavigate } from 'react-router-dom';
 import './ExplodingStack.css';
 
 const projects = [
+  // ... (keep your existing projects array here) ...
   { 
     id: 1, 
     title: 'Ward System', 
@@ -50,11 +51,12 @@ const projects = [
     url: '/not-found', 
     img: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=500&q=60',
     external: false
-  },
+  }
 ];
 
-const ExplodingStack = () => {
-  const [isOpen, setIsOpen] = useState(false);
+// 1. Receive isOpen and toggleStack as props
+const ExplodingStack = ({ isOpen, toggleStack }) => {
+  // Remove the internal useState: const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -94,7 +96,7 @@ const ExplodingStack = () => {
     <div className={`stack-container ${isOpen ? 'open' : ''}`}>
       <div 
         className="stack-area" 
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={toggleStack} /* 2. Use the prop function here */
       >
         <p className="head"><b>My Projects</b></p>
         <div className="card cover">

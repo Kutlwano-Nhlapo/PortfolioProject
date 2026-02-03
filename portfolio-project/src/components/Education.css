@@ -6,6 +6,7 @@
   padding: 80px 20px;
   position: relative;
   overflow: hidden;
+   border-top: 2px solid rgba(168, 85, 247, 0.2);
 }
 
 .education-section::before {
