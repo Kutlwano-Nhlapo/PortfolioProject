@@ -100,7 +100,7 @@ const ExplodingStack = ({ isOpen, toggleStack }) => {
       >
         <p className="head"><b>My Projects</b></p>
         <div className="card cover">
-          <h3>My Portfolio</h3>
+          <h3>My Projects</h3>
           <p>Click to view</p>
         </div>
         {projects.map((project, index) => {
