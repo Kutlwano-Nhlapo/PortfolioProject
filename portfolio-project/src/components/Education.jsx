@@ -78,14 +78,14 @@ const Education = () => {
 
   const certifications = [
     {
-      title: "Microsoft Certified: Azure Fundamentals",
-      issuer: "Microsoft",
+      title: "CCNA: Introduction to Networking",
+      issuer: "Cisco Network Academy",
       date: "2023",
       icon: "🏆"
     },
     {
       title: "Agile Project Management",
-      issuer: "Scrum Alliance",
+      issuer: "HP Foundation",
       date: "2024",
       icon: "📊"
     }
