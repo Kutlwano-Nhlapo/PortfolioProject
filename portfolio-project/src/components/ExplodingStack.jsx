@@ -12,7 +12,7 @@ const projects = [
     d2: 'Entity Framework',
     style: 'JavaScript', 
     r: '-5deg', 
-    url: 'https://soit-iis.mandela.ac.za/grp-03-14', 
+    url: 'https://github.com/Kutlwano-Nhlapo', 
     img: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=60',
     external: true
   },
@@ -30,10 +30,10 @@ const projects = [
   },
   { 
     id: 3, 
-    title: 'Clothing App', 
-    desc: 'Mobile',
+    title: 'KBSN Tech', 
+    desc: 'Built a Website to get new digital clients that want static to enterprise websites',
     d: 'React Native',
-    d2: 'Firebase',
+    d2: 'JavaScritp',
     style: 'UI/UX', 
     r: '-2deg', 
     url: '/not-found', 
@@ -42,13 +42,13 @@ const projects = [
   },
   { 
     id: 4, 
-    title: '3D Portfolio', 
+    title: 'Portfolio', 
     desc: 'Blender',
-    d: 'Three.js',
-    d2: 'WebGL',
-    style: '3D Modeling', 
+    d: 'React-Native',
+    d2: 'JavaScript',
+    style: 'UI/UX', 
     r: '6deg', 
-    url: '/not-found', 
+    url: 'https://kutlwano-nhlapo.github.io/PortfolioProject/', 
     img: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=500&q=60',
     external: false
   }
